@@ -1,9 +1,9 @@
 #!/usr/bin/python
+from setuptools import setup, find_packages()
 
-import setuptools
-
-setuptools.setup(
+setup(
     name='webauth',
-    version='0.0.1',
+    version='0.0.2',
+    packages=find_packages(),
     install_requires = []
 )
